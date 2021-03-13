@@ -1,14 +1,91 @@
 body{
-  
-  background-image: url("https://i.pinimg.com/736x/41/fd/4f/41fd4f78e6a232ce7197923f6790095c.jpg");
+  background: transparent;
+  background-blend-mode: lighten;
+  font-family: 'Poppins', sans-serif;
   background-repeat: no-repeat;
-  background-position-x: 10mm;
+  background-position-x: 20mm;
   background-position-y: 10mm;
-  background-size: 670px;
-
+  background-size: 700px;
 }
 
+h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.split{
+  display: flex;
+}
+
+.title-input{
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+  outline-color: rgba(255, 168, 127, 0.609);
+  padding-left: 10px;
+  padding: auto;
+}
+.content-input{
+  text-align: left;
+  margin-left: 110px;
+  color: rgb(15, 2, 2);
+  outline-color: rgba(255, 168, 127, 0.609);
+  padding-left: 30px;
+  padding-bottom: 500px;
+  padding: auto;
+  background-size: 650px;
+  background-image: url("https://www.enjpg.com/img/2020/beige-aesthetic-20.jpg");
+}
+.title-label{
+  margin-top: 50px;
+  font-size: 20px;
+  margin-left: 110px;
+  margin-bottom: 50px;
+  background-size: 200px;
+  background-image: url("https://i.pinimg.com/736x/63/a1/f7/63a1f77c07e1744c18497577b6ea00ce.jpg");
+}
+.paragraph-input{
+  box-sizing: content-box;
+}
+.submit{
+  cursor: pointer;
+  margin-left: 700px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.new-dream{
+  font-size: 20px;
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 110px;
+  margin-bottom: 30px;
+  background-image: url("https://i1.wp.com/wallpapercave.com/wp/wp5859361.jpg");
+}
+.about-title{
+  font-family: adobe-garamond-pro;
+  text-align: left;
+  padding: 60px;
+  font-size: 25px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS31WxjGB-_OsuOgh4ucpDozUQEUctYUFMbH3i1yJBAvkazoW6r8N1HufpioOWeTjr15wQ&usqp=CAU");
+  background-blend-mode: luminosity;
+  background-size: 1200px;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+}
+.about-body{
+
+  background-image: url("https://i.pinimg.com/originals/91/74/04/9174042714d51a898a28174aef7bd802.jpg");
+  background-size: 1250px;
+  background-blend-mode: lighten;
+  font: optional;
+  font-weight: 300;
+  text-align: left;
+  padding: 40px;
+  font-size: 25px;
+  margin-left: 60px;
+}
 .dream-list{
+  text-align: center;
+  list-style: none;
   display: flex;
   justify-content: space-around;
   width: 50%;
@@ -16,11 +93,22 @@ body{
 }
 
 .dream{
-  position: relative;
+  font-family: 'Poppins', sans-serif;
+  background-image: url("https://i.pinimg.com/originals/7a/78/3c/7a783c60c0dd4de44bf45712ce955bf6.jpg");
+  display: flex;
+  margin-bottom: 100px;
+  font-size: 10px;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #fff;
+  left: 10px;
+  width: 80%;
+  height: 70%;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+.delete-button{
+  cursor: pointer;
+  margin-top: 490px;
+  margin-left: 70px;
+  margin-bottom: 100px;
+  height: 40px;
 }

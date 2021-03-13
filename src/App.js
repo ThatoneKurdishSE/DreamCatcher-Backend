@@ -44,9 +44,22 @@ deleteDream = (id) => {
   render(){
     return (
       <div className="App">
-        <h1>Catch em dreams bbygrl</h1>
-        <DreamForm addDream={this.addDream}/>
-        <DreamContainer deleteDream={this.deleteDream} dreams={this.state.dreams}/>
+        <h1> ᴅʀᴇᴀᴍʟᴀɴᴅɪᴀ </h1>
+        <div className="about-info">
+        <p className="about-title"> Ｄｒｅａｍｓ　ガ若桜
+          <br/>
+          <p className="about-body">
+          【﻿Ｒｅｓｅａｒｃｈｅｓ　ｄｏｎｅ　ｂｙ　ＲＩＦＧＳ　（Ｒａｚ　ｉｎｓｔｉｔｕｔｅ　ｆｏｒ　Ｇｏｏｄ　Ｓｌｅｅｐ）　ｓｈｏｗｓ　ｔｈａｔ，　ｔｈｉｓ　ａｐｐ，　ｉｓ　ｌｉｋｅ　ｓｕｐｅｒ　ｉｍｐｏｒｔａｎｔ．　Ｂｙ　ｋｅｅｐｉｎｇ　ｔｒａｃｋ　ｏｆ　ｙｏｕｒ　ｄｒｅａｍｓ　ａｎｄ　ｙｏｕｒ　ｏｖｅｒａｌｌ　ｍｏｏｄ　ａｎｄ　ｔｈｅｍｅ，　ｙｏｕ　ａｌｌｏｗ　ｙｏｕｒｓｅｌｆ　ｔｏ　ｂｅ　ｂｅｔｔｅｒ　ａｗａｒｅ　ｏｆ　ｈｏｗ　ｙｏｕ　ｐｒｏｃｅｓｓｅｄ　ｐａｒｔｓ　ｏｆ　ｙｏｕｒ　ｄａｙ．　Ｅｖｅｎ　ｉｆ　ｙｏｕ　ｓｕｐｐｒｅｓｓ　ｙｏｕｒ　ｅｘｐｅｒｉｅｎｃｅｓ　ｗｈｅｎ　ａｗａｋｅ，　ｔｈｅｙ　ｗｉｌｌ　ｃｏｍｅ　ｂｕｒｓｔｉｎｇ　ｏｕｔ　ｏｆ　ｙｏｕｒ　ｓｕｂｃｏｎｓｃｉｏｕｓ　ｗｈｅｎ　ａｓｌｅｅｐ．】
+          </p>
+        </p>
+        <p>
+
+        </p>
+        </div>
+        <section className="split">
+          <DreamForm addDream={this.addDream}/>
+          <DreamContainer deleteDream={this.deleteDream} dreams={this.state.dreams}/>
+        </section>
       </div>
     );
   }
